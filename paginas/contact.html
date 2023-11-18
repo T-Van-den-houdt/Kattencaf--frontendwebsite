@@ -1,0 +1,76 @@
+<!--metainfo en links naar stylesheets-->
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kattencafe</title>
+    <link rel="stylesheet" href="stylesheets/mainstyles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <!--Begin zichtbare webpagina-->
+  <body>
+    <!--hoofd met daarin logo en navigatie-->
+    <header>
+      <img
+        src="images/logo.png"
+        alt="logo kattencafe"
+        class="image"
+        id="logo"
+      />
+      <h1>Kattencafe</h1>
+      <nav id="nav">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="webwinkel.html">webwinkel</a>
+          </li>
+          <li>
+            <a href="adoptie.html">adoptie</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="contact-form">
+      <article>
+        <h2>Vul hier je gegevens in om in contact te geraken</h2>
+        <section>
+          <form>
+            <!--Naam-->
+            <label for="name">Naam (verplicht):</label
+            ><input id="name" type="text" required />
+            <!--Naam Kat-->
+            <label for="nameCat">Naam kat(verplicht):</label
+            ><input id="nameCat" type="text" required />
+            <!--Telefoonnummer-->
+            <label for="phone">Telefoonnummer:</label
+            ><input id="phone" type="tel" />
+            <!--email-->
+            <label for="email">Email (verplicht):</label
+            ><input id="email" type="email" required />
+            <!--extra vragen/info-->
+            <label for="extra">Extra vragen/info:</label>
+            <input id="extra" type="text" />
+            <!--Verzenden-->
+            <input value="Verzenden" type="submit" />
+          </form>
+        </section>
+      </article>
+    </main>
+    <!--footer van de webpagina: copyright en link naar sitespec-->
+    <footer>
+      <p>&copy;Copyright 2023 - Thomas Van den houdt</p>
+      <p><a href="../sitespec.html">sitespec</a></p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+#contact-form {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    article {
+      background-color: #fff;
+      border-radius: 0.5rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 1.7rem;
+      margin: 1rem;
+      width: 80%;
+      max-width: 500px; /* Adjust as needed */
+  
+      form {
+        display: grid;
+        grid-gap: 15px;
+  
+        label {
+          font-weight: bold;
+        }
+  
+        input {
+          width: 100%;
+          padding: 0.7rem;
+          border: 1px solid #ccc;
+          border-radius: 0.5rem;
+        }
+  
+        input[type="submit"] {
+          background-color: $modernyellow;
+          color: black;
+          cursor: pointer;
+          transition: background-color 0.3s;
+        }
+  
+        input[type="submit"]:hover {
+          background-color: $offyellow;
+        }
+      }
+    }
+  }

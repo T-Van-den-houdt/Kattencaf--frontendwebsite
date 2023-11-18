@@ -1,0 +1,36 @@
+#main-sitespec {
+
+  article {
+    margin: 0.7rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 0.9rem;
+
+    section {
+      margin-bottom: 2rem;
+
+      h2 {
+        color: $modernbrown; 
+        border-bottom: 2px solid $modernbrown;
+        padding-bottom: 0.5rem;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+      }
+
+      ul, ol {
+        padding: 0;
+        margin: 0;
+      }
+
+      ul li,
+      ol li {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+}
+
+footer {
+  margin-top: 2rem;
+}

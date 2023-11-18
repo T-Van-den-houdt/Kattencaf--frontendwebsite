@@ -1,0 +1,140 @@
+<!--metainfo en links naar stylesheets-->
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kattencafe</title>
+    <link rel="stylesheet" href="stylesheets/mainstyles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <!--Begin zichtbare webpagina-->
+  <body>
+    <!--hoofd met daarin logo en navigatie-->
+    <header>
+      <img
+        src="images/logo.png"
+        alt="logo kattencafe"
+        class="image"
+        id="logo"
+      />
+      <h1>Kattencafe</h1>
+      <nav id="nav">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="webwinkel.html">webwinkel</a>
+          </li>
+          <li>
+            <a href="adoptie.html">adoptie</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--Main content van webwinkel-->
+    <main class="webwinkel">
+      <!--image carousel voor advertising etc.-->
+      <section class="container">
+        <div class="slider-wrapper">
+          <div class="slider">
+            <img
+              src="images/advertising03.png"
+              alt="New Products coming soon"
+              id="slide-1"
+            />
+            <img
+              src="images/advertising.png"
+              alt="Discount Cat Food use code cats50"
+              id="slide-2"
+            />
+            <img
+              src="images/advertising02.png"
+              alt="Gave 100 cats a home, will you be the next one"
+              id="slide-3"
+            />
+          </div>
+          <div class="slider-nav">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+          </div>
+        </div>
+      </section>
+      <article class="selling-list">
+        <!--listing 1-->
+        <section class="listing">
+          <img src="images/gourmet01.jpg" alt="gourmet kattenvoeding te koop" />
+          <ul>
+            <li><p>Gourmet Kattenvoeding</p></li>
+            <li><p>5 euro</p></li>
+            <li><button>Koop</button></li>
+          </ul>
+        </section>
+        <!--listing 2-->
+        <section class="listing">
+          <img
+            src="images/kattenbakkorrels01.jpg"
+            alt="kattenbakkorrels te koop"
+          />
+          <ul>
+            <li><p>Kattenbak-vulling</p></li>
+            <li><p>12 euro</p></li>
+            <li><button>Koop</button></li>
+          </ul>
+        </section>
+        <!--listing 3-->
+        <section class="listing">
+          <img
+            src="images/kattenbakontgeurder.jpg"
+            alt="kattenbakontgeurder te koop"
+          />
+          <ul>
+            <li><p>Kattenbakontgeurder</p></li>
+            <li><p>6 euro</p></li>
+            <li><button>Koop</button></li>
+          </ul>
+        </section>
+        <!--listing 4-->
+        <section class="listing">
+          <img src="images/shebaclassics01.jpg" alt="sheba classic te koop" />
+          <ul>
+            <li><p>Sheba Classic kattenvoeding</p></li>
+            <li><p>1,99 euro</p></li>
+            <li><button>Koop</button></li>
+          </ul>
+        </section>
+        <!--listing 5-->
+        <section class="listing">
+          <img
+            src="images/whiskaskorrels01.jpg"
+            alt="whiskas korrels te koop"
+          />
+          <ul>
+            <li><p>Whiskas Kattenkorrels</p></li>
+            <li><p>6 euro</p></li>
+            <li><button>Koop</button></li>
+          </ul>
+        </section>
+        <p>
+          Alle foto's gebruikt op deze pagina zijn eigendom van
+          <a href="https://www.colruyt.be/nl/producten?page=1">Colruyt groep</a>
+        </p>
+      </article>
+    </main>
+    <!--footer van de webpagina: copyright en link naar sitespec-->
+    <footer>
+      <p>&copy;Copyright 2023 - Thomas Van den houdt</p>
+      <p><a href="../sitespec.html">sitespec</a></p>
+    </footer>
+  </body>
+</html>

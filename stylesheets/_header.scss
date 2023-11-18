@@ -1,0 +1,56 @@
+$header-bg-color: $modernbrown; 
+
+header {
+  display: flex;
+  background: $header-bg-color;
+  grid-column: 1 / 2;
+  border: 1px solid black;
+
+  .image {
+    height: 9em;
+    border-right: 1px solid black;
+  }
+
+  h1, nav {
+    font-size: 1rem;
+  }
+
+  h1, nav, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      flex-grow: 1;
+      justify-content: space-evenly;
+      margin-left: -2rem;
+
+      li {
+        font-size: 1.15em;
+        border: 2px solid black;
+        padding: 0.3rem;
+        border-radius: 2px 15px;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: $mainwhite1;
+          transform: scale(1.2);
+        }
+
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
+}
